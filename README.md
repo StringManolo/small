@@ -30,7 +30,7 @@ small ls -a
 ```
 
 ##### Files
-- ###### README.md  
+- ###### [README.md](https://github.com/StringManolo/small/blob/master/README.md)  
 This file.
 
 - ###### TODO.md  
@@ -65,7 +65,7 @@ Install small in proot-distro
 Add small to /bin  
 Other installed versions, will be removed (all files inside too)
 
-- ######packages  
+- ###### packages  
 Extra packages (tweeaked and compressed to be smaller) will be here  
 You can install by going into this folder and run the scripts
 Usefull to install packages without APK (reduces the size)  
