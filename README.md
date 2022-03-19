@@ -33,19 +33,19 @@ small ls -a
 - ###### [README.md](https://github.com/StringManolo/small/blob/master/README.md)  
 This file.
 
-- ###### TODO.md  
+- ###### [TODO.md](https://github.com/StringManolo/small/blob/master/TODO.md)  
 Ideas for the future.
 
-- ###### alpine-minirootfs-3.15.0-aarch64.tar.gz  
+- ###### [alpine-minirootfs-3.15.0-aarch64.tar.gz](https://github.com/StringManolo/small/blob/master/alpine-minirootfs-3.15.0-aarch64.tar.gz)  
 Used as a small base distro
 
-- ###### alpineBase  
+- ###### alpineBase (extract it from miniroot)  
 Used to create new distros
 
-- ###### cleanSmall.sh  
+- ###### [cleanSmall.sh](https://github.com/StringManolo/small/blob/master/cleanSmall.sh)  
 Replace the small filesystem by alpine filesystem
 
-- ###### configureSmallDistro.sh  
+- ###### [configureSmallDistro.sh](https://github.com/StringManolo/small/blob/master/configureSmallDistro.sh)  
 Add nameservers to /etc/resolv.config  
 Remove env variables from host to avoid leakage  
 Add env variables to small  
@@ -54,45 +54,45 @@ Add terminal colors and prompt shell
 Add aliases  
 Add bash shell options (if bash is installed)  
 
-- ###### exportInstalledSmall.sh  
+- ###### [exportInstalledSmall.sh](https://github.com/StringManolo/small/blob/master/exportInstalledSmall.sh)  
 Export small with all changes made directly from the system (packages installed, new files, etc)
 
-- ###### exportSmall.sh  
+- ###### [exportSmall.sh](https://github.com/StringManolo/small/blob/master/exportSmall.sh)  
 Export small directory, changes made directly from the system are not reflected
 
-- ###### installInProotDistro.sh  
+- ###### [installInProotDistro.sh](https://github.com/StringManolo/small/blob/master/installInProotDistro.sh)  
 Install small in proot-distro  
 Add small to /bin  
 Other installed versions, will be removed (all files inside too)
 
-- ###### packages  
+- ###### [packages](https://github.com/StringManolo/small/tree/master/packages)  
 Extra packages (tweeaked and compressed to be smaller) will be here  
 You can install by going into this folder and run the scripts
 Usefull to install packages without APK (reduces the size)  
 
-- ###### packages/install_all.sh  
+- ###### [packages](https://github.com/StringManolo/small/tree/master/packages)/[install_all.sh](https://github.com/StringManolo/small/blob/master/packages/install_all.sh)  
 Install all avaiable packages:  
   + APK (Alpine official package manager)  
   + Curl (Data transfer utility/cli http client)  
   
-- ###### packages/apk  
+- ###### [packages](https://github.com/StringManolo/small/tree/master/packages)/[apk](https://github.com/StringManolo/small/tree/master/packages/apk)   
 APK package manager compressed files  
   
-- ###### packages/install_apk.sh  
+- ###### [packages](https://github.com/StringManolo/small/tree/master/packages)/[install_apk.sh](https://github.com/StringManolo/small/blob/master/packages/install_apk.sh)  
 Install the APK (Alpine Package Manager) in small  
   
-- ###### packages/curl  
+- ###### [packages](https://github.com/StringManolo/small/tree/master/packages)/[curl](https://github.com/StringManolo/small/tree/master/packages/curl)    
 Curl binary and lib files  
   
-- ###### packages/install_curl.sh  
+- ###### [packages](https://github.com/StringManolo/small/tree/master/packages)/[install_curl.sh](https://github.com/StringManolo/small/blob/master/packages/install_curl.sh)   
 Install the curl utility  
   
-- ###### reduced  
+- ###### reduced (extract it from [reduced.7z](https://github.com/StringManolo/small/blob/master/reduced.7z))  
 Smallest possible version of small  
   
-- ###### smallFileSystem  
+- ###### smallFileSystem  (extract it from [reduced.7z](https://github.com/StringManolo/small/blob/master/reduced.7z) and rename it to smallFileSystem)
 The small files that will be installed in proot-distro  
   
-- ###### startSmall.sh  
+- ###### [startSmall.sh](https://github.com/StringManolo/small/blob/master/startSmall.sh)  
 Old file to run small in desktop/PC  
 Ignore it, possible not working with this patched small version  
