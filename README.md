@@ -12,7 +12,7 @@ pkg install proot-distro
 cp reduced -r smallFileSystem
 ./configureSmallDistro.sh
 cd packages
-./install_apk.sh
+./install_all.sh
 cd ../
 ./installInProotDistro.sh
 ```
@@ -70,11 +70,22 @@ Extra packages (tweeaked and compressed to be smaller) will be here
 You can install by going into this folder and run the scripts
 Usefull to install packages without APK (reduces the size)  
 
+- packages/install_all.sh
+Install all avaiable packages:
+  + APK (Alpine official package manager)
+  + Curl (Data transfer utility/cli http client)
+
 - packages/apk
 APK package manager compressed files
 
 - packages/install_apk.sh
 Install the APK (Alpine Package Manager) in small
+
+- packages/curl
+Curl binary and lib files
+
+- packages/install_curl.sh
+Install the curl utility
 
 - reduced
 Smallest possible version of small
