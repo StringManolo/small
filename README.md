@@ -30,22 +30,22 @@ small ls -a
 ```
 
 ##### Files
-- README.md 
+- README.md  
 This file.
 
-- TODO.md
+- TODO.md  
 Ideas for the future.
 
-- alpine-minirootfs-3.15.0-aarch64.tar.gz
+- alpine-minirootfs-3.15.0-aarch64.tar.gz  
 Used as a small base distro
 
-- alpineBase
+- alpineBase  
 Used to create new distros
 
-- cleanSmall.sh
+- cleanSmall.sh  
 Replace the small filesystem by alpine filesystem
 
-- configureSmallDistro.sh
+- configureSmallDistro.sh  
 Add nameservers to /etc/resolv.config  
 Remove env variables from host to avoid leakage  
 Add env variables to small  
@@ -54,45 +54,45 @@ Add terminal colors and prompt shell
 Add aliases  
 Add bash shell options (if bash is installed)  
 
-- exportInstalledSmall.sh
+- exportInstalledSmall.sh  
 Export small with all changes made directly from the system (packages installed, new files, etc)
 
-- exportSmall.sh
+- exportSmall.sh  
 Export small directory, changes made directly from the system are not reflected
 
-- installInProotDistro.sh
+- installInProotDistro.sh  
 Install small in proot-distro  
 Add small to /bin  
 Other installed versions, will be removed (all files inside too)
 
-- packages
+- packages  
 Extra packages (tweeaked and compressed to be smaller) will be here  
 You can install by going into this folder and run the scripts
 Usefull to install packages without APK (reduces the size)  
 
-- packages/install_all.sh
-Install all avaiable packages:
-  + APK (Alpine official package manager)
-  + Curl (Data transfer utility/cli http client)
-
-- packages/apk
-APK package manager compressed files
-
-- packages/install_apk.sh
-Install the APK (Alpine Package Manager) in small
-
-- packages/curl
-Curl binary and lib files
-
-- packages/install_curl.sh
-Install the curl utility
-
-- reduced
-Smallest possible version of small
-
-- smallFileSystem
-The small files that will be installed in proot-distro
-
-- startSmall.sh
+- packages/install_all.sh  
+Install all avaiable packages:  
+  + APK (Alpine official package manager)  
+  + Curl (Data transfer utility/cli http client)  
+  
+- packages/apk  
+APK package manager compressed files  
+  
+- packages/install_apk.sh  
+Install the APK (Alpine Package Manager) in small  
+  
+- packages/curl  
+Curl binary and lib files  
+  
+- packages/install_curl.sh  
+Install the curl utility  
+  
+- reduced  
+Smallest possible version of small  
+  
+- smallFileSystem  
+The small files that will be installed in proot-distro  
+  
+- startSmall.sh  
 Old file to run small in desktop/PC  
-Ignore it, possible not working with this patched small version
+Ignore it, possible not working with this patched small version  
