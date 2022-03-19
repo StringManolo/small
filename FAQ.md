@@ -19,9 +19,9 @@ Once you have your program compiled, you can move it to /data/data/com.termux/fi
 
 ##### Why isn't it working for me?
 The public version only works on aarch64, termux and proot-distro  
-The project can work anywhere, but you need versions of mostly everything for another asrchs, libs, etc. If you are going to make a version, you probably want to fork this repo and change everything.  
-I have tested other archs even in destop x86_64 using proot without termux and without proot-distro (using proot). Is in my TODO.md list add support to other archs.  
+The project can work anywhere, but you need versions of mostly everything for another archs, libs, etc. If you are going to make a version, you probably want to fork this repo and change everything.  
+I have tested other archs even in desktop x86_64 using proot without termux and without proot-distro (using proot). Is in my TODO.md list add support to other archs.  
   
 ##### I don't see any license, why?
-Each file may have his own license, and and not to interested in add each one, references to what each file is using...  
-Usually I never add any licenses to my repos for same reassons. You can reach me in Telegram or twitter if you have more questions. 
+Each file may have his own license, and I'm not to interested in add each one, references to what license each file is using...  
+Usually I never add any licenses to my repos for same reassons. You can reach me in Telegram or Twitter if you have more questions 
