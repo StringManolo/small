@@ -1,3 +1,3 @@
-- Remove /data directory from small
-- Add support to more architectures
-- Add support for desktop
+- Remove /data directory from small     ✅
+- Add support to more architectures     ❌
+- Add support for desktop               ❌
